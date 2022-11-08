@@ -1,0 +1,11 @@
+<h1> The F-ing Selected list</h1>
+<%= @task.title %>
+<ul>
+    <li><%= @task.details %></li>
+</ul>
+
+<p> <%= link_to "Back to the task", tasks_path %> </p>
+
+<p> <%= link_to "edit somehting", edit_task_path(@task) %> </p>
+
+
